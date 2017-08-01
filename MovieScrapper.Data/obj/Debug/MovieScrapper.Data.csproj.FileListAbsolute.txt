@@ -12,3 +12,5 @@ C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScr
 C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScrapper.Data\bin\Debug\EntityFramework.xml
 C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScrapper.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScrapper.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScrapper.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\k.barutska\documents\visual studio 2017\Projects\MovieScrapper\MovieScrapper.Data\bin\Debug\System.Net.Http.Formatting.xml

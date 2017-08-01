@@ -15,5 +15,22 @@ namespace MovieScrapper.Business
             var repo = new CategoryRepository();
             return repo.GetAll();
         }
+        public MovieCategory GetCategory(int id)
+        {
+            var repo = new CategoryRepository();
+            return repo.GetCategory(id);
+        }
+
+        public void AddCategory(MovieCategory category)
+        {                     
+            var repo = new CategoryRepository();           
+            repo.AddCategory(category);         
+        }
+
+        public void DeleteCategory(int id)
+        {
+            var repo = new CategoryRepository();
+            repo.DeleteCategory(id);
+        }
     }
 }

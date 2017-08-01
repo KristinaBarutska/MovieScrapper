@@ -18,5 +18,35 @@ namespace MovieScrapper.Data
                 return databaseCategory;
             }
         }
+
+        public MovieCategory GetCategory(int id)
+        {
+
+            using (var ctx = new MovieContext())
+            {
+                var databaseCategory = ctx.MovieCaterogries.Where(x=>x.Id==id).SingleOrDefault();
+                return databaseCategory;
+            }
+        }
+
+        public void AddCategory(MovieCategory category)
+        {
+            using (var ctx = new MovieContext())
+            {                
+                ctx.MovieCaterogries.Add(category);
+                ctx.SaveChanges();
+            }
+        }
+
+        public void DeleteCategory(int id)
+        {
+
+            using (var ctx = new MovieContext())
+            {
+                var databaseCategory = ctx.MovieCaterogries.Where(x => x.Id == id).SingleOrDefault();
+                ctx.Entry(databaseCategory).State = System.Data.Entity.EntityState.Deleted;
+                ctx.SaveChanges();
+            }
+        }
     }
 }
