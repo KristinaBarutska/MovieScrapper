@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieScrapper.Web", "MovieScrapper\MovieScrapper.Web.csproj", "{79940E8E-B411-45A1-98E5-FC935909D261}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieScrapper.Web", "MovieScrapper.Web\MovieScrapper.Web.csproj", "{79940E8E-B411-45A1-98E5-FC935909D261}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieScrapper.Business", "MovieScrapper.Business\MovieScrapper.Business.csproj", "{FED25C81-CD20-4D5F-B3D1-176C31A7FAC7}"
 EndProject
